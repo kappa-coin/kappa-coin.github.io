@@ -157,6 +157,17 @@ a:hover {
   margin: 45px 0 75px 0;
   color: #fff;
 }
+.tagline-sarc {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+.dates {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color:#fff;
+}
 
 /* ==================================================
   Header Styling
@@ -465,10 +476,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 ================================================== */
 .stats-row {
   margin-top: 65px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .stats-col .circle .stats-dollar::before {
   content: "$"
+}
+.stats-col .circle .stats-perc::before {
+  content: "%"
 }
 
 .stats-col .circle {
@@ -488,8 +504,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .stats-col .circle .stats-no {
   color: #fff;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   line-height: 100px;
   top: -45px;
   right: -15px;
@@ -515,12 +531,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   font-weight: 700;
 }
+.stats-col .circle .stats-perc{
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  line-height: 100px;
+  top: -45px;
+  right: -15px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #E04F00;
+  position: absolute;
+  border-radius: 50%;
+  font-weight: 700;
+}
 /* ==================================================
   Parallax Styling
   ================================================== */
 .block {
   color: #fff;
-  height: 490px;
+  height: 200;
   overflow: hidden;
   padding-top: 85px;
 }
@@ -540,6 +570,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   ================================================== */
 .features {
   padding-bottom: 45px;
+}
+
+.features .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.features td,th{
+  border: 1px solid #dddddd;
+  padding: 5px;
+  text-align:right;
 }
 
 .features h2 {
