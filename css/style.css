@@ -504,9 +504,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .stats-col .circle .stats-no {
   color: #fff;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
   top: -45px;
   right: -15px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
