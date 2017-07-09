@@ -65,7 +65,7 @@
           <p class="tagline">
             Buying this coin is a <i>great</i> idea!
           </p>
-          <a class="btn btn-full" href="#about">Get Started Now</a>
+          <a class="btn btn-full" href="res/whitepaper.pdf">Read the Whitepaper</a>
         </div>
       </div>
 
@@ -90,7 +90,9 @@
       </nav><!-- #nav-menu-container -->
 
       <nav class="nav social-nav pull-right hidden-sm-down">
-        <!--a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a-->
+        <a href="mailto:kappacrypto@gmail.com"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/kappa-coin"><i class="fa fa-github"></i></a><a href="https://twitter.com/Kappa_Coin"><i class="fa fa-twitter"></i></a>
+        <!--a href="#"><i class="fa fa-facebook"></i></a-->
       </nav>
     </div>
   </header><!-- #header -->
@@ -220,18 +222,18 @@
     <section class="cta">
       <div class="container">
         <div class="row">
-          <div class="col-lg-9 col-sm-12 text-lg-left text-center">
-            <h2>
+          <div class="offset-lg-3 col-lg-6 col-sm-12 text-center">
+            <h1>
               Give me money
-            </h2>
+            </h1>
 
             <p>
               Buy this <i>totally not useless</i> cryptocurrency
             </p>
-          </div>
 
-          <div class="col-lg-3 col-sm-12 text-lg-right text-center">
-            <a class="btn btn-ghost" href="#">More Information to come</a>
+
+            <br>
+
           </div>
         </div>
       </div>
@@ -239,22 +241,22 @@
     <!-- /Call to Action -->
 
     <section class="about">
-    <div class="row stats-row">
+    <div class="row stats-row stats">
       <div class="stats-col text-center col-md-4 col-sm-6">
         <div class="circle">
-          <span class="stats-no" data-toggle="counter-up">0</span> Ether Wasted
+          <span class="stats-no" data-toggle="counter-up"><p id="total-ether"></p></span> Ether Wasted
         </div>
       </div>
 
       <div class="stats-col text-center col-md-4 col-sm-6">
         <div class="circle">
-          <span class="stats-dollar" data-toggle="counter-up">0</span> That's a lot of ramen
+          <span class="stats-dollar" data-toggle="counter-up"><p id="total-usd"></p></span> That's a lot of ramen
         </div>
       </div>
 
       <div class="stats-col text-center col-md-4 col-sm-6">
         <div class="circle">
-          <span class="stats-no" data-toggle="counter-up">0</span> Coins issued
+          <span class="stats-no" data-toggle="counter-up"><p id="total-tokens"></p></span> Coins issued
         </div>
       </div>
 
@@ -317,8 +319,6 @@
 
     <!-- Template Specisifc Custom Javascript File -->
     <script src="js/custom.js"></script>
-
-    <script src="contactform/contactform.js"></script>
-
+    <script src="js/bignumber.js"></script>
   </body>
 </html>
