@@ -635,10 +635,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
 }
 
+.cta h1,
 .cta h2,
+.cta h3,
 .cta p {
+  font-weight: bold;
   color: #fff;
 }
+
+.cta a {color: #DDDDDD;}
 
 .cta p {
   margin-bottom: 0;
