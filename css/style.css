@@ -560,6 +560,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
+.block a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.block a:hover{
+  color:#9b9b9b;
+}
+
+
 .block p {
   color: #fff;
   margin-bottom: 45px;
@@ -638,12 +648,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .cta h1,
 .cta h2,
 .cta h3,
-.cta p {
+.cta p,
+.cta a{
   font-weight: bold;
   color: #fff;
 }
 
-.cta a {color: #DDDDDD;}
+.cta a:hover {color: #9b9b9b;}
 
 .cta p {
   margin-bottom: 0;
